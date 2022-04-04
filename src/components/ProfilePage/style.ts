@@ -41,7 +41,7 @@ export const Avatar = styled.div`
 `;
 
 export const ProfileData = styled.div`
-    padding: min(calc(10vw + 7px), 67px) 16px;
+    padding: min(calc(10vw + 22px), 67px) 16px;
 
     display: flex;
     flex-direction: column;

@@ -6,7 +6,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    padding:  14px 16px;
+    padding:  14px 0 ;
 
     border-bottom: 1px solid var(--outline);
 
