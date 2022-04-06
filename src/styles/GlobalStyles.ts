@@ -7,8 +7,8 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    html, body #root {
-        max-width: 100vh;
+    html, body, #root {
+        max-width: 100%;
         max-height: 100vw;
 
         width: 100%;
