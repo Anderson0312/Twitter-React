@@ -13,7 +13,7 @@ export const Container = styled.div`
 
     scrollbar-width: none;
     ::-webkit-scrollbar {
-        display: none
+        display: none;
     }
 `;
 

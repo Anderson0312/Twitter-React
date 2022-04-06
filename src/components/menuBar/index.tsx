@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Topside, Logo, MenuButton,HomeIcon,Bellicon,EmailIcon, FavoriteIcon, ProfileIcon } from './styles';
+import { Container, Topside, Logo, MenuButton,HomeIcon,Bellicon,EmailIcon, FavoriteIcon, ProfileIcon, Botside, Avatar, ProfileData , ExitIcon } from './styles';
 
 import Button from '../Button';
 
@@ -12,7 +12,7 @@ const MenuBar: React.FC = () => {
 
               <MenuButton>
                   <HomeIcon />
-                  <span>Pagina Inicial</span>
+                  <span>Pagina inicial</span>
               </MenuButton>
               <MenuButton>
                   <Bellicon />
@@ -35,6 +35,17 @@ const MenuBar: React.FC = () => {
                   <span>Tweetar </span>
               </Button>
           </Topside>
+
+          <Botside> 
+              <Avatar />
+
+              <ProfileData>
+                  <strong>AndersonM</strong>
+                  <span>@AndersonMnt</span>
+              </ProfileData>
+
+              <ExitIcon />
+          </Botside>
       </Container>
   )
 }
